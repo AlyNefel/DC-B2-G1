@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table &Form (inputs)</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        body {
+            background-color: lightblue;
+        }
+    </style> -->
+</head>
+
+<body>
+    <!-- table : a structred way to represent data in form of columns and rows  -->
+    <h2>Table example </h2>
+    <table border="1" width="250px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hafnaoui</td>
+                <td>24</td>
+                <td>Tunis</td>
+            </tr>
+            <tr>
+                <td>Jonh</td>
+                <td>20</td>
+                <td>Texas</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Form -->
+    <hr>
+    <!-- <h2 style="color:red">Form</h2> -->
+    <form>
+        <!-- text input field -->
+        <label for="">Name</label>
+        <input type="text"> <br><br>
+        <label for="">Email</label>
+        <input type="email" name="" id=""> <br><br>
+        <!-- Password input  -->
+        <label for="">Password</label>
+        <input type="password" name="" id=""><br><br>
+        <!-- Date type -->
+        <label for="">Birthdate</label>
+        <input type="date" name="" id=""><br><br>
+        <!-- Radio buttons -->
+        <label for="">Gender :</label>
+        <label for="">Male</label>
+        <input type="radio" name="gender" id="">
+        <label for="">Female</label>
+        <input type="radio" name="gender" id=""><br><br>
+
+        <!-- Color input -->
+        <label for="">Select ur favourite color</label>
+        <input type="color" name="" id=""><br><br>
+        <!-- Upload input -->
+        <label for="">Upload ur image</label>
+        <input type="file" name="" id=""><br><br>
+        <!-- Selection  -->
+        <label for="">Select ur favourite Snack :</label>
+        <select name="" id="">
+            <option value="">Pears</option>
+            <option value="">Almond</option>
+            <option value="">Gaufrette</option>
+        </select> <br><br>
+
+        <!-- number input  -->
+        <label for="">Enter number from 1 to 100</label>
+        <input type="number" name="" id=""> <br><br>
+        <!-- Range input -->
+        <input type="range" name="" id="" min="1" max="120"><br><br>
+        <!-- Text Area -->
+        <Label>Description</Label>
+        <textarea name="" id=""></textarea>
+        <br><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+
+</html>
