@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic HTML Tags with CSS</title>
+    
+    <!-- Linking CSS -->
+  </head>
+  <body>
+    
+    <!-- Table -->
+    <h2>Table Example</h2>
+    <table >
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>25</td>
+          <td>New York</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>28</td>
+          <td>Los Angeles</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Form -->
+    <h2>Form Example</h2>
+    <form >
+      <label for="name">Name:</label>
+      <input type="text"  name="name" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email"  name="email" /><br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password"  name="password" /><br /><br />
+
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br /><br />
+
+      <label for="color">Favorite Color:</label>
+      <input type="color"  name="color" /><br /><br />
+      <!-- Dropdown menu to select a snack -->
+      <label>Favorite Snack:</label>
+      <select name="snack">
+        <option value="Almonds">Almonds</option>
+        <option value="Cheese and Crackers">Cheese and Crackers</option>
+        <option value="Pita and Hummus">Pita and Hummus</option>
+        <option value="Pears">Pears</option></select
+      ><br /><br />
+      <!-- Range slider to select a number -->
+      <label for="range">Choose a number:</label>
+      <input type="range" id="range" name="range" min="1" max="100" /><br /><br />
+
+      <!-- Text area for comments -->
+      <label for="comments">Comments:</label>
+      <textarea style=" resize: none;"  name="comments"></textarea><br /><br />
+      <input type="submit" value="Submit"  />
+    </form>
+  </body>
+</html>
