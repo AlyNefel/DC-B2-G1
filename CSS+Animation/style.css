@@ -1,0 +1,37 @@
+body{
+background-color: aqua;
+margin:50px;
+padding:50px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* 
+#testCss{
+    background-color: lightcoral;
+} */
+
+.styled-table{
+    width:80%;
+    height:250px;
+    /* for the border  */
+    border-collapse: collapse;
+    box-shadow: 2px 2px 10px black;
+}
+
+/* select child tag */
+.styled-table th{
+    background-color: lightgray;
+    color:white
+}
+
+#styled-form{
+    background-color: beige;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* select type inside form */
+
+#styled-form input[type="email"]{
+    background-color: red;
+}
+

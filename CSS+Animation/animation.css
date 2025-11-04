@@ -1,0 +1,83 @@
+body{
+    padding:50px;
+    background-color: aliceblue;
+
+}
+
+/* tytping effect */
+.typing{
+    font-family:monospace;
+    border-right:.15em solid red;
+    font-size: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    margin:0;
+    display:inline-block;
+    animation:typing 3s steps(22,end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing{
+    from{width:0;}
+    to{width:22ch;}
+}
+@keyframes blink-caret{
+    50% {border-color: transparent;}
+}
+
+.box{
+    width:100px;
+    height: 100px;
+    color:black;
+    font-weight: bold;
+    border-radius: 10px;
+    border:2px solid grey;
+    /* center item horiz */
+    justify-content: center;
+    align-items:center;
+    display:flex;
+}
+
+.fade{
+    background-color: coral;
+    border:2px solid black;
+    animation:fadeIn 3s infinite alternate
+}
+@keyframes fadeIn{
+    /* from transparent */
+    from{opacity:0} 
+    /* to visible */
+    to{opacity:1;}
+}
+
+/* slide animation */
+.slide{
+    background-color: lightgreen;
+    animation:slideIn 2s ease-in-out infinite
+}
+@keyframes slideIn{
+    from{transform:translateX(-100)}
+    to{transform:translateX(100px)}
+}
+
+/* bounce effect */
+.bounce{
+    background-color: lightblue;
+    animation:bounce 1s infinite
+}
+
+@keyframes bounce{
+    0%,100%{transform: translateY(0);}
+    50%{transform:translateY(-30px)}
+}
+
+/* flip animation */
+
+.flip{
+    background-color: aqua;
+    animation:flip .75s ease-in-out infinite
+}
+@keyframes flip{
+    0%{transform: rotateY(0deg);}
+    50%{transform:rotateY(180deg)}
+     100%{transform:rotateY(360deg)}
+}
